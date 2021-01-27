@@ -16,8 +16,32 @@ public class Personne {
 		this.adressePostale = adressePostale;
 	}
 	
+	public void modifyName(String newName) {
+		this.nom = newName;
+	}
+	
+	public void modifyFirstName(String newFirstName) {
+		this.prenom = newFirstName;
+	}
+	
+	public void modifyAdress(AdressePostale newAdress) {
+		this.adressePostale = newAdress;
+	}
+	
+	public String getName() {
+		return this.nom;
+	}
+	
+	public String getFirstName() {
+		return this.prenom;
+	}
+	
+	public AdressePostale getAdress() {
+		return this.adressePostale;
+	}
+	
 	public String ToString() {
-		return this.nom + " " + this.prenom + " \n Vit au " + this.adressePostale.ToString();
+		return this.nom.toUpperCase() + " " + this.prenom + " \n Vit au " + this.adressePostale.ToString();
 	}
 	
 	public void DisplayPersonne() {
