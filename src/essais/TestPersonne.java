@@ -7,24 +7,8 @@ public class TestPersonne {
 
 	public static void main(String[] args) {
 
-		Personne p1 = new Personne();
-		Personne p2 = new Personne();
-		
-		p1.nom = "Carlito";
-		p1.prenom = "Gné";
-		p1.adressePostale = new AdressePostale();
-		p1.adressePostale.codePostal = 34000;
-		p1.adressePostale.libelleDeLaRue = "Rue des marais";
-		p1.adressePostale.ville = "Montpellier";
-		p1.adressePostale.numeroDeRue = 2;
-		
-		p2.nom = "Frère de Carlito";
-		p2.prenom = "Gné junior";
-		p1.adressePostale = new AdressePostale();
-		p1.adressePostale.codePostal = 34000;
-		p1.adressePostale.libelleDeLaRue = "Rue des marais";
-		p1.adressePostale.ville = "Montpellier";
-		p1.adressePostale.numeroDeRue = 2;		
+		Personne p1 = new Personne("Jean-Hervé", "Petitpas", new AdressePostale(125, "Rue des prévost", 34000, "Montpellier"));
+		Personne p2 = new Personne("Nicolas", "PetiBeurre", new AdressePostale(5, "Rue des prévost", 34000, "Montpellier"));	
 	}
 
 }
