@@ -8,6 +8,8 @@ public class TestAdressePostale {
 
 		AdressePostale firstAdress = new AdressePostale(5, "Rue des prévost", 34000, "Montpellier");
 		AdressePostale secondAdress = new AdressePostale(2, "Avenue des buis", 34100, "Montpellier");
+		
+		secondAdress.DisplayAdress();
 
 	}
 

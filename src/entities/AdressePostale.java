@@ -12,4 +12,12 @@ public class AdressePostale {
 		this.codePostal = codePostal;
 		this.ville = ville;
 	}
+	
+	public String ToString() {
+		return this.numeroDeRue + " " + this.libelleDeLaRue + " " + this.codePostal + " " + this.ville;
+	}
+	
+	public void DisplayAdress() {
+		System.out.println(this.ToString());
+	}
 }

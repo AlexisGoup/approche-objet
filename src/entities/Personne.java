@@ -15,4 +15,12 @@ public class Personne {
 		this.prenom = prenom;
 		this.adressePostale = adressePostale;
 	}
+	
+	public String ToString() {
+		return this.nom + " " + this.prenom + " \n Vit au " + this.adressePostale.ToString();
+	}
+	
+	public void DisplayPersonne() {
+		System.out.println(this.ToString());
+	}
 }
