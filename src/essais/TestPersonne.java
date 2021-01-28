@@ -11,7 +11,7 @@ public class TestPersonne {
 		Personne p2 = new Personne("Nicolas", "PetiBeurre", new AdressePostale(5, "Rue des prévost", 34000, "Montpellier"));
 		
 		p2.DisplayPersonne();
-		p2.modifyAdress(new AdressePostale(285, "Rue des prévostacés sauvages", 34500, "Montcul"));
+		p2.setAdress(new AdressePostale(285, "Rue des prévostacés sauvages", 34500, "Montcul"));
 		p2.DisplayPersonne();
 	}
 

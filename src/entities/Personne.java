@@ -16,15 +16,15 @@ public class Personne {
 		this.adressePostale = adressePostale;
 	}
 	
-	public void modifyName(String newName) {
+	public void setName(String newName) {
 		this.nom = newName;
 	}
 	
-	public void modifyFirstName(String newFirstName) {
+	public void setFirstName(String newFirstName) {
 		this.prenom = newFirstName;
 	}
 	
-	public void modifyAdress(AdressePostale newAdress) {
+	public void setAdress(AdressePostale newAdress) {
 		this.adressePostale = newAdress;
 	}
 	
