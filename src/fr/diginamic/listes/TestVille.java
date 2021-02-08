@@ -24,7 +24,19 @@ public class TestVille {
 			}				
 		}	
 		
-		System.out.println("La ville la plus peuplée est : " + biggestCity);
+		System.out.println("La ville la plus peuplï¿½e est : " + biggestCity);
+		
+		Ville v1 = new Ville("Noice", 34000);
+		Ville v2 = new Ville("Noice", 34000);
+		Ville v3 = v1;
+		
+		// TEST de la methode equals
+		System.out.println(v1.equals(v2));
+		
+		// TEST avec ==     
+		System.out.println(v1 == v2); // Retourne false car compare les adresses mÃ©moires
+		System.out.println(v1 == v3); // Retourne true car adresses memoire identiques 
+		
 	}
 	
 }
